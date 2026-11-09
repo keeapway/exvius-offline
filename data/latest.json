@@ -142,11 +142,11 @@
   "installedBytes": 14948691529,
   "files": 12487,
   "app": {
-    "version": "0.1.26",
-    "versionName": "9.0.0-offline.26",
-    "versionCode": 9066,
-    "url": "https://github.com/keeapway/exvius-offline/releases/download/v0.1.26/exvius-offline-v0.1.26.apk",
+    "version": "0.1.27",
+    "versionName": "9.0.0-offline.27",
+    "versionCode": 9067,
+    "url": "https://github.com/keeapway/exvius-offline/releases/download/v0.1.27/exvius-offline-v0.1.27.apk",
     "size": 47960266,
-    "sha256": "ca48a039820ddcc816f8e3e1708d7cecc1312a5194cfb941f7072b1fb1c5ac6b"
+    "sha256": "3d03405e2418bed34f130a4dd3db396315b995b9b7d2a30be61ae848430f3ebe"
   }
 }
