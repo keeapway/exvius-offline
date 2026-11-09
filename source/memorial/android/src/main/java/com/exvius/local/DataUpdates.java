@@ -30,7 +30,7 @@ import org.json.JSONObject;
 
 /** One complete first download, cached offline play, and static release updates. */
 public final class DataUpdates {
-    private static final String LATEST = "https://raw.githubusercontent.com/Elvlin/exvius-offline/main/data/latest.json";
+    private static final String LATEST = "https://raw.githubusercontent.com/keeapway/exvius-offline/main/data/latest.json";
     private static final String ASSETS = "https://github.com/Elvlin/exvius-offline/releases/download/";
     private static final AtomicBoolean working = new AtomicBoolean();
     private static volatile Progress listener;
