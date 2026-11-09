@@ -34,7 +34,7 @@ def finalize(version, client_version, version_code):
             assert all(row.filename.startswith(('native/', 'static/', 'metadata/')) for row in archive.infolist())
             assert not any('/state/' in row.filename or '.jks' in row.filename for row in archive.infolist())
     app = {'version': version, 'versionName': client_version, 'versionCode': version_code,
-           'url': f'https://github.com/Elvlin/exvius-offline/releases/download/v{version}/{apk.name}',
+           'url': f'https://github.com/keeapway/exvius-offline/releases/download/v{version}/{apk.name}',
            'size': apk.stat().st_size, 'sha256': sha256(apk)}
     # The data packs keep their own compatibility floor when only the APK changes.
     manifest['app'] = app
